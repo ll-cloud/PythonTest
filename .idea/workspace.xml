@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="220c7def-d361-446d-9d10-6e05ba4d56ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/inter/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inter/interkeys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/testHttps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lib/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lib/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lib/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/webkeys.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inter/interkeys.py" beforeDir="false" afterPath="$PROJECT_DIR$/inter/interkeys.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +33,63 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/lib" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\git\PythonTest\web\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.testHttps">
+    <configuration name="interkeys" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyTestFrame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inter" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inter/interkeys.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testHttps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyTestFrame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inter" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inter/testHttps.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.testHttps" />
+        <item itemvalue="Python.interkeys" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -46,6 +105,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="935" y="58" key="#interkeys" timestamp="1592385267028">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="935" y="58" key="#interkeys/0.0.1920.1040@0.0.1920.1040" timestamp="1592385267028" />
+    <state x="1033" y="164" key="#testHttps" timestamp="1592383519516">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1033" y="164" key="#testHttps/0.0.1920.1040@0.0.1920.1040" timestamp="1592383519516" />
+    <state width="1269" height="165" key="GridCell.Tab.0.bottom" timestamp="1592385454124">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592385454124" />
+    <state width="1269" height="165" key="GridCell.Tab.0.center" timestamp="1592385454124">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592385454124" />
+    <state width="1269" height="165" key="GridCell.Tab.0.left" timestamp="1592385454124">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592385454124" />
+    <state width="1269" height="165" key="GridCell.Tab.0.right" timestamp="1592385454124">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1269" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592385454124" />
+    <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1592384680899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592384680899" />
+    <state width="936" height="347" key="GridCell.Tab.1.center" timestamp="1592384680898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592384680898" />
+    <state width="936" height="347" key="GridCell.Tab.1.left" timestamp="1592384680897">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592384680897" />
+    <state width="936" height="347" key="GridCell.Tab.1.right" timestamp="1592384680898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592384680898" />
     <state x="346" y="603" key="com.intellij.ide.util.TipDialog" timestamp="1592360636053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

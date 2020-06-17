@@ -11,6 +11,8 @@ class HTTP:
         # 返回值
         self.result = None
         self.jsonres = None
+        # 关联保存的地址
+        self.relations={}
 
     def seturl(self, url):
         """
@@ -20,7 +22,7 @@ class HTTP:
         """
         self.url = url
 
-    def __getdata__(self,params):
+    def __getdata(self,params):
         """
         处理字符串'username=1&password=2'
         :param params:
@@ -38,6 +40,7 @@ class HTTP:
                 else:
                     params_dict[param] = None
             return params_dict
+
     def post(self, path, params):
         """
         发送post请求
@@ -45,7 +48,8 @@ class HTTP:
         :param params:
         :return:
         """
-        self.result = self.session.post(self.url + path, data=self.__getdata__(params))
+        params = self.__get_relations(params)
+        self.result = self.session.post(self.url + path, data=self.__getdata(params))
         self.jsonres = json.loads(self.result.text)
         print(self.jsonres)
 
@@ -56,4 +60,27 @@ class HTTP:
         :param value: 值
         :return:
         """
+        value=self.__get_relations(value)
         self.session.headers[key] = value
+
+    def savejson(self,key,param_name):
+        """
+        保存关联的参数
+        :param key:需要保存的json结果里面的键
+        :param param_name:保存后的名字
+        :return:
+        """
+        self.relations[param_name]=self.jsonres[key]
+
+    def __get_relations(self,params):
+        """
+        将参数里面用到关联的地方，替换成关联后的值
+        :param params: 关联前的参数
+        :return: 关联后的结果
+        """
+        if params is None or params=='':
+            return ''
+        else:
+            for key in self.relations:
+                params=params.replace('{'+key+'}',self.relations[key])
+        return params
