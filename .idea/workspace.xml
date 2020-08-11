@@ -2,13 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="220c7def-d361-446d-9d10-6e05ba4d56ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/inter/testHttps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lib/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lib/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lib/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/webkeys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/PO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/appkeys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/test-qq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Encrypt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/excelresult.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/conf.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/module.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/userinfo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inter/soapkeys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cases/App.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cases/HTTP接口用例.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cases/REST.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cases/SOAP.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cases/SOAP1.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cases/Web.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_fanshe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_jsonpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_soap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_zhihu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyTestFrame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyTestFrame.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainRunner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inter/interkeys.py" beforeDir="false" afterPath="$PROJECT_DIR$/inter/interkeys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/webkeys.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/webkeys.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +53,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dOZE3cKTPMdxRwjcWWob0qDpw6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,28 +63,35 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/lib" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/cases" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\git\PythonTest\web" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\git\PythonTest\lib\cases" />
+      <recent name="D:\study\git\PythonTest\app" />
       <recent name="D:\study\git\PythonTest\web\lib" />
+      <recent name="D:\study\git\PythonTest\web" />
+      <recent name="D:\study\git\PythonTest\inter" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.testHttps">
-    <configuration name="interkeys" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.MainRunner">
+    <configuration name="MainRunner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyTestFrame" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Program Files\python37\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inter" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inter/interkeys.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MainRunner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -63,19 +100,82 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testHttps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyTestFrame" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Program Files\python37\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inter" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inter/testHttps.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyTestFrame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/test01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_soap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyTestFrame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_soap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="webkeys" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyTestFrame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/webkeys.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,8 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.testHttps" />
-        <item itemvalue="Python.interkeys" />
+        <item itemvalue="Python.MainRunner" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.webkeys" />
+        <item itemvalue="Python.test01" />
+        <item itemvalue="Python.test_soap" />
       </list>
     </recent_temporary>
   </component>
@@ -105,6 +208,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1057" y="224" key="#Excel" timestamp="1593668397051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1057" y="224" key="#Excel/0.0.1920.1040@0.0.1920.1040" timestamp="1593668397051" />
+    <state x="1423" y="593" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596882360008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1423" y="593" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596882360008" />
     <state x="935" y="58" key="#interkeys" timestamp="1592385267028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -113,41 +224,84 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1033" y="164" key="#testHttps/0.0.1920.1040@0.0.1920.1040" timestamp="1592383519516" />
-    <state width="1269" height="165" key="GridCell.Tab.0.bottom" timestamp="1592385454124">
+    <state x="797" y="248" key="FileChooserDialogImpl" timestamp="1596466115395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1269" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592385454124" />
-    <state width="1269" height="165" key="GridCell.Tab.0.center" timestamp="1592385454124">
+    <state x="797" y="248" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596466115395" />
+    <state width="1530" height="291" key="GridCell.Tab.0.bottom" timestamp="1596983700560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1269" height="165" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592385454124" />
-    <state width="1269" height="165" key="GridCell.Tab.0.left" timestamp="1592385454124">
+    <state width="1530" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596983700560" />
+    <state width="1530" height="140" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1594100669171" />
+    <state width="1530" height="291" key="GridCell.Tab.0.center" timestamp="1596983700560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1269" height="165" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592385454124" />
-    <state width="1269" height="165" key="GridCell.Tab.0.right" timestamp="1592385454124">
+    <state width="1530" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596983700560" />
+    <state width="1530" height="140" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1594100669171" />
+    <state width="1530" height="291" key="GridCell.Tab.0.left" timestamp="1596983700560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1269" height="165" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592385454124" />
-    <state width="936" height="347" key="GridCell.Tab.1.bottom" timestamp="1592384680899">
+    <state width="1530" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596983700560" />
+    <state width="1530" height="140" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1594100669171" />
+    <state width="1530" height="291" key="GridCell.Tab.0.right" timestamp="1596983700560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592384680899" />
-    <state width="936" height="347" key="GridCell.Tab.1.center" timestamp="1592384680898">
+    <state width="1530" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596983700560" />
+    <state width="1530" height="140" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1594100669171" />
+    <state width="1530" height="235" key="GridCell.Tab.1.bottom" timestamp="1596554680930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592384680898" />
-    <state width="936" height="347" key="GridCell.Tab.1.left" timestamp="1592384680897">
+    <state width="1530" height="235" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596554680930" />
+    <state width="1530" height="235" key="GridCell.Tab.1.center" timestamp="1596554680930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592384680897" />
-    <state width="936" height="347" key="GridCell.Tab.1.right" timestamp="1592384680898">
+    <state width="1530" height="235" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596554680930" />
+    <state width="1530" height="235" key="GridCell.Tab.1.left" timestamp="1596554680930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592384680898" />
-    <state x="346" y="603" key="com.intellij.ide.util.TipDialog" timestamp="1592360636053">
+    <state width="1530" height="235" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596554680930" />
+    <state width="1530" height="235" key="GridCell.Tab.1.right" timestamp="1596554680930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="346" y="603" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592360636053" />
+    <state width="1530" height="235" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596554680930" />
+    <state x="845" y="233" key="SettingsEditor" timestamp="1595944734776">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="233" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595944734776" />
+    <state x="346" y="626" key="com.intellij.ide.util.TipDialog" timestamp="1594096434807">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="346" y="603" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594038188109" />
+    <state x="346" y="626" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1594096434807" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596965022924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596965022924" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inter/interkeys.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inter/interkeys.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inter/interkeys.py</url>
+          <line>185</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/test-qq.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

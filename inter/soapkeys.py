@@ -1,13 +1,18 @@
 # coding=utf-8
 import requests, json,jsonpath
+from suds.client import Client
+import json
+import traceback
 # from common import Encrypt
 
-class HTTP:
+class SOAP:
     def __init__(self, w):
-        # session管理
-        self.session = requests.session()
-        # 基础的host地址
-        self.url = ''
+        # 请求的client
+        self.client=None
+        # 头的管理
+        self.headers={}
+        #
+        self.wsdl=''
         # 返回值
         self.result = None
         self.jsonres = None
@@ -18,16 +23,17 @@ class HTTP:
         # 记录当前需要写入的行
         self.row = 0
 
-    def seturl(self, url):
+    def setwsdl(self, url):
         """
-        设置基本url地址
+        设置基本wsdl地址
         :param url:
         :return:
         """
-        self.url = url + '/'
-        self.__write_excel_res('PASS', '设置成功：' + self.url)
+        self.wsdl=url
+        self.client = Client(url)
+        self.__write_excel_res('PASS', '设置成功：' + url)
 
-    def __getdata(self, params):
+    def __get_data(self, params):
         """
         处理字符串'username=1&password=2'
         :param params:
@@ -36,52 +42,39 @@ class HTTP:
         if params is None or params == '':
             return None
         else:
-            params_dict = {}
-            list_params = params.split('&')
-            for param in list_params:
-                # key_values=params.split('=')
-                if param.find('=') >= 0:
-                    params_dict[param[0:param.find('=')]] = param[param.find('=') + 1:]
-                else:
-                    params_dict[param] = None
-            return params_dict
+            return params.split('、')
 
-    def post(self, path, params):
+    def callmethod(self, name, params):
         """
-        发送post请求
-        :param path:
+        发送callmethod请求
+        :param name:
         :param params:
         :return:
         """
         params = self.__get_relations(params)
         # params=self.__user_encrypt(params)
-        self.result = self.session.post(self.url + path, data=self.__getdata(params))
-        print(self.result)
-        # self.jsonres = json.loads(self.result.text)
+        params=self.__get_data(params)
         try:
-            self.jsonres = json.loads(self.result.text)
+            if params is None:
+                self.result=self.client.service.__getattr__(name)()
+            else:
+                self.result=self.client.service.__getattr__(name)(*params)
+        except:
+            self.result=str(traceback.format_exc())
+
+        try:
+            self.jsonres = json.loads(self.result)
         except:
             self.jsonres == None
-        self.__write_excel_res('PASS', self.result.text)
+        self.__write_excel_res('PASS', self.result)
 
-        print(self.jsonres)
 
-    def get(self, path, params):
-        """
-        发送get请求
-        :param path:
-        :param params:
-        :return:
-        """
-        params = self.__get_relations(params)
-        self.result = self.session.post(self.url + path+'?'+params)
-        print(self.result)
         # self.jsonres = json.loads(self.result.text)
-        try:
-            self.jsonres = json.loads(self.result.text)
-        except:
-            self.jsonres == None
-        self.__write_excel_res('PASS', self.result.text)
+        # try:
+        #     self.jsonres = json.loads(self.result)
+        # except:
+        #     self.jsonres == None
+        # self.__write_excel_res('PASS', self.result)
 
         print(self.jsonres)
 
@@ -101,8 +94,9 @@ class HTTP:
         :return:
         """
         value = self.__get_relations(value)
-        self.session.headers[key] = value
-        self.__write_excel_res('PASS', '添加成功' + str(self.session.headers))
+        self.headers[key] = value
+        self.client=Client(self.wsdl,headers=self.headers)
+        self.__write_excel_res('PASS', '添加成功' + str(self.headers))
 
     def removeheader(self, key):
         """
@@ -111,10 +105,11 @@ class HTTP:
         :return:
         """
         try:
-            self.session.headers.pop(key)
+            self.headers.pop(key)
         except:
             pass
-        self.__write_excel_res('PASS', '添加成功' + str(self.session.headers))
+        self.client=Client(self.wsdl)
+        self.__write_excel_res('PASS', '删除成功' + str(self.headers))
 
     def savejson(self, key, param_name):
         """
