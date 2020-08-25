@@ -50,7 +50,7 @@ config.get_config('./conf/conf.properties')
 mysql = Mysql()
 mysql.init_mysql('./conf/userinfo.sql')
 # 逐行读取excel
-casename = 'App'
+casename = 'Web'
 reader = Reader()
 reader.open_excel('./lib/cases/%s.xls' % casename)
 writer = Writer()

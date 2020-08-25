@@ -1,8 +1,11 @@
 # coding=utf-8
-import requests, json,jsonpath
-from suds.client import Client
 import json
 import traceback
+
+import jsonpath
+from suds.client import Client
+
+
 # from common import Encrypt
 
 class SOAP:
@@ -166,7 +169,7 @@ class SOAP:
         :param key: json的键
         :param value: 期望值
         :return: 是否相等
-        """
+         """
         res = None
         try:
             res = str(jsonpath.jsonpath(self.jsonres,jsonpathkey)[0])

@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="220c7def-d361-446d-9d10-6e05ba4d56ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/results/Test Results - Unittests_for_WebTest_Web.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/results/Test Results - Unittests_in_Parameters_py.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utest/PO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utest/Paramatest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utest/datadriven.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utest/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utest/runUnitTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utest/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utest/testlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/Slide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/verify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/results/Test Results - pytest_in_test_demo4_py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytestcases/data/add.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytestcases/data/add1.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytestcases/data/testyaml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytestcases/test_allure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yinshua.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainRunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inter/soapkeys.py" beforeDir="false" afterPath="$PROJECT_DIR$/inter/soapkeys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cases/Web.xls" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cases/Web.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/logs/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/lib/logs/all.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/results/result-Web.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytestcases/test_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytestcases/test_demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytestcases/test_demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytestcases/test_demo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytestcases/test_demo4.py" beforeDir="false" afterPath="$PROJECT_DIR$/pytestcases/test_demo4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/webkeys.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/webkeys.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +28,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/lib/results" userTempatePath="" />
+  <component name="FavoritesManager">
+    <favorites_list name="PythonTest" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -42,22 +53,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/utest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\git\PythonTest" />
+      <recent name="D:\study\git\PythonTest\common" />
+      <recent name="D:\study\git\PythonTest\pytestcases\data" />
       <recent name="D:\study\git\PythonTest\utest" />
       <recent name="D:\study\git\PythonTest\lib\cases" />
-      <recent name="D:\study\git\PythonTest\app" />
-      <recent name="D:\study\git\PythonTest\web\lib" />
-      <recent name="D:\study\git\PythonTest\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\study\git\PythonTest\web" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mail">
+  <component name="RunManager" selected="Python.test_allure">
     <configuration name="MainRunner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyTestFrame" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_allure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyTestFrame" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestcases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/mail.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytestcases/test_allure.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,55 +111,159 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Parameters.MyTestCase.test_add" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="test_demo1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyTestFrame" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestcases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Parameters.MyTestCase.test_add&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytestcases/test_demo1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for WebTest.Web" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="test_demo2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyTestFrame" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestcases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;WebTest.Web&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytestcases/test_demo2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in Parameters.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="test_demo4" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="MyTestFrame" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestcases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytestcases/test_demo4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testyaml" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="MyTestFrame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestcases/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pytestcases/data/testyaml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="yinshua" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyTestFrame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yinshua.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_demo1.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="MyTestFrame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Program Files\python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestcases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/utest/Parameters.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestcases/test_demo1.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_demo4.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="MyTestFrame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Program Files\python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pytestcases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pytestcases/test_demo4.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test_demo4" />
+      <item itemvalue="Python.testyaml" />
+      <item itemvalue="Python.MainRunner" />
+      <item itemvalue="Python.test_allure" />
+      <item itemvalue="Python.test_demo1" />
+      <item itemvalue="Python.test_demo2" />
+      <item itemvalue="Python.yinshua" />
+      <item itemvalue="Python tests.pytest in test_demo1.py" />
+      <item itemvalue="Python tests.pytest in test_demo4.py" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mail" />
-        <item itemvalue="Python tests.Unittests in Parameters.py" />
-        <item itemvalue="Python tests.Unittests for Parameters.MyTestCase.test_add" />
-        <item itemvalue="Python tests.Unittests for WebTest.Web" />
+        <item itemvalue="Python.test_allure" />
+        <item itemvalue="Python.test_demo2" />
+        <item itemvalue="Python.yinshua" />
         <item itemvalue="Python.MainRunner" />
+        <item itemvalue="Python.test_demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -170,10 +285,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1057" y="224" key="#Excel/0.0.1920.1040@0.0.1920.1040" timestamp="1593668397051" />
-    <state x="136" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597239716230">
+    <state x="656" y="227" width="1092" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597678989620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="136" y="356" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597239716230" />
+    <state x="656" y="227" width="1092" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597678989620" />
     <state x="1381" y="593" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597325566153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -186,46 +301,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1033" y="164" key="#testHttps/0.0.1920.1040@0.0.1920.1040" timestamp="1592383519516" />
-    <state x="797" y="248" key="FileChooserDialogImpl" timestamp="1597240254062">
+    <state x="797" y="248" key="FileChooserDialogImpl" timestamp="1597679007760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="797" y="248" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597240254062" />
-    <state width="1530" height="283" key="GridCell.Tab.0.bottom" timestamp="1597328815507">
+    <state x="797" y="248" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597679007760" />
+    <state width="1530" height="169" key="GridCell.Tab.0.bottom" timestamp="1598365300271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1530" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597328815507" />
+    <state width="1530" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598365300271" />
     <state width="1530" height="140" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1594100669171" />
-    <state width="1530" height="283" key="GridCell.Tab.0.center" timestamp="1597328815507">
+    <state width="1530" height="169" key="GridCell.Tab.0.center" timestamp="1598365300271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1530" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597328815507" />
+    <state width="1530" height="169" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598365300271" />
     <state width="1530" height="140" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1594100669171" />
-    <state width="1530" height="283" key="GridCell.Tab.0.left" timestamp="1597328815507">
+    <state width="1530" height="169" key="GridCell.Tab.0.left" timestamp="1598365300271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1530" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597328815507" />
+    <state width="1530" height="169" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598365300271" />
     <state width="1530" height="140" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1594100669171" />
-    <state width="1530" height="283" key="GridCell.Tab.0.right" timestamp="1597328815507">
+    <state width="1530" height="169" key="GridCell.Tab.0.right" timestamp="1598365300271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1530" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597328815507" />
+    <state width="1530" height="169" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598365300271" />
     <state width="1530" height="140" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1594100669171" />
-    <state width="1530" height="235" key="GridCell.Tab.1.bottom" timestamp="1596554680930">
+    <state width="1530" height="204" key="GridCell.Tab.1.bottom" timestamp="1597679119962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1530" height="235" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596554680930" />
-    <state width="1530" height="235" key="GridCell.Tab.1.center" timestamp="1596554680930">
+    <state width="1530" height="204" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597679119962" />
+    <state width="1530" height="204" key="GridCell.Tab.1.center" timestamp="1597679119961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1530" height="235" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596554680930" />
-    <state width="1530" height="235" key="GridCell.Tab.1.left" timestamp="1596554680930">
+    <state width="1530" height="204" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597679119961" />
+    <state width="1530" height="204" key="GridCell.Tab.1.left" timestamp="1597679119961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1530" height="235" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596554680930" />
-    <state width="1530" height="235" key="GridCell.Tab.1.right" timestamp="1596554680930">
+    <state width="1530" height="204" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597679119961" />
+    <state width="1530" height="204" key="GridCell.Tab.1.right" timestamp="1597679119961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1530" height="235" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596554680930" />
+    <state width="1530" height="204" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597679119961" />
     <state x="845" y="233" key="SettingsEditor" timestamp="1595944734776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -235,10 +350,102 @@
     </state>
     <state x="346" y="603" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594038188109" />
     <state x="346" y="626" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1594096434807" />
-    <state x="1424" y="456" key="export.test.results" timestamp="1597326716367">
+    <state x="495" y="279" width="1368" height="606" key="dock-window-1" timestamp="1598364640689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1424" y="456" key="export.test.results/0.0.1920.1040@0.0.1920.1040" timestamp="1597326716367" />
+    <state x="495" y="279" width="1368" height="606" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1598364640689" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-10" timestamp="1598364465332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-10/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465332" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-11" timestamp="1598364465332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-11/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465332" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-12" timestamp="1598364465332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-12/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465332" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-13" timestamp="1598364465332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-13/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465332" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-14" timestamp="1598364465332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-14/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465332" />
+    <state x="274" y="381" width="1368" height="759" key="dock-window-15" timestamp="1598366214899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="274" y="381" width="1368" height="759" key="dock-window-15/0.0.1920.1040@0.0.1920.1040" timestamp="1598366214899" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-16" timestamp="1598364465332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-16/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465332" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-17" timestamp="1598364465333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-17/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465333" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-18" timestamp="1598364465333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-18/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465333" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-19" timestamp="1598364465333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-19/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465333" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-2" timestamp="1598364465333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465333" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-20" timestamp="1598364465333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-20/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465333" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-21" timestamp="1598364465333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-21/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465333" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-22" timestamp="1598364465333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-22/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465333" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-23" timestamp="1598354005058">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-23/0.0.1920.1040@0.0.1920.1040" timestamp="1598354005058" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-3" timestamp="1598364465333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465333" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-4" timestamp="1598364465333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-4/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465333" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-5" timestamp="1598364465333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-5/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465333" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-6" timestamp="1598364465333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-6/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465333" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-7" timestamp="1598364465333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-7/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465333" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-8" timestamp="1598364465333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-8/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465333" />
+    <state x="365" y="745" width="1368" height="606" key="dock-window-9" timestamp="1598364465333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="365" y="745" width="1368" height="606" key="dock-window-9/0.0.1920.1040@0.0.1920.1040" timestamp="1598364465333" />
+    <state x="1424" y="456" key="export.test.results" timestamp="1597679027605">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1424" y="456" key="export.test.results/0.0.1920.1040@0.0.1920.1040" timestamp="1597679027605" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597325639363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

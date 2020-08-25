@@ -1,0 +1,107 @@
+{
+  "uid" : "2eae467edf71f15e",
+  "name" : "test_cart",
+  "fullName" : "test_allure#test_cart",
+  "historyId" : "383c1c9dd4cc9916e2646604e6143110",
+  "time" : {
+    "start" : 1598365301694,
+    "stop" : 1598365301694,
+    "duration" : 0
+  },
+  "description" : "将手机加入购物车",
+  "descriptionHtml" : "<p>将手机加入购物车</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1598365301690,
+      "stop" : 1598365301690,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "将手机加入购物车",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3d581b76e6866857",
+      "name" : "stdout",
+      "source" : "3d581b76e6866857.txt",
+      "type" : "text/plain",
+      "size" : 37
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1598365301695,
+      "stop" : 1598365301695,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_allure"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KHV2FO1"
+  }, {
+    "name" : "thread",
+    "value" : "488-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "47f09a257cae6501",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598364968789,
+        "stop" : 1598364968790,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2eae467edf71f15e.json",
+  "parameterValues" : [ ]
+}

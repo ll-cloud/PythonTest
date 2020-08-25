@@ -1,0 +1,124 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_demo1",
+    "children" : [ {
+      "name" : "Test_Shop",
+      "children" : [ {
+        "name" : "test_1",
+        "uid" : "2262de6e731007a0",
+        "parentUid" : "988182eca70941db05e8c514617fce97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598364968799,
+          "stop" : 1598364968800,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "988182eca70941db05e8c514617fce97"
+    } ],
+    "uid" : "b8bb77b1df8e68623f67062fb3e7c26c"
+  }, {
+    "name" : "test_demo3",
+    "children" : [ {
+      "name" : "Test_ABC",
+      "children" : [ {
+        "name" : "test_a",
+        "uid" : "bbbf3154134ffac9",
+        "parentUid" : "b5600df5389564316ac1301a176956e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598364968806,
+          "stop" : 1598364968806,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_b",
+        "uid" : "72b76799e7e2ff92",
+        "parentUid" : "b5600df5389564316ac1301a176956e1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598364968811,
+          "stop" : 1598364968811,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b5600df5389564316ac1301a176956e1"
+    } ],
+    "uid" : "a0fca1eb7f3296bb8972d9ffa1ff5d1b"
+  }, {
+    "name" : "test_demo4",
+    "children" : [ {
+      "name" : "Test_Add",
+      "children" : [ {
+        "name" : "test_add[1-1-2-整数加整数]",
+        "uid" : "426fb25c2f2f90b5",
+        "parentUid" : "be2fce161b9ce3e4ef872fb419c2a49e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598364968875,
+          "stop" : 1598364968876,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'整数加整数'", "1", "1", "2" ]
+      }, {
+        "name" : "test_add[1-1.01-2.01-整数加小数]",
+        "uid" : "bd8abba0facb2054",
+        "parentUid" : "be2fce161b9ce3e4ef872fb419c2a49e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598364968952,
+          "stop" : 1598364968952,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'整数加小数'", "1", "1.01", "2.01" ]
+      } ],
+      "uid" : "be2fce161b9ce3e4ef872fb419c2a49e"
+    } ],
+    "uid" : "6bb2b8b74db1e97cec840ecb63e7a54c"
+  }, {
+    "name" : "test_allure",
+    "children" : [ {
+      "name" : "test_cart",
+      "uid" : "2eae467edf71f15e",
+      "parentUid" : "fbee53df8487942ba5333ea9eebb3863",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598365301694,
+        "stop" : 1598365301694,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_cart1",
+      "uid" : "a431a57a256859d4",
+      "parentUid" : "fbee53df8487942ba5333ea9eebb3863",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598365301702,
+        "stop" : 1598365301702,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fbee53df8487942ba5333ea9eebb3863"
+  } ]
+}

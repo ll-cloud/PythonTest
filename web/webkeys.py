@@ -252,6 +252,20 @@ class Web:
             self.__write_excel_res('FAIL', '断言失败')
             return False
 
+    def getverify(self,locator=''):
+        """
+        获取图文验证码
+        :param locator: 验证码图片的定位器
+        :return:
+        """
+        try:
+            ele=self.__find_by_xpath(locator)
+            # 截取验证码图片
+            ele.screenshot('./lib/images/verify.png')
+            self.__write_excel_res('PASS', '截图成功')
+        except:
+            self.__write_excel_res('FAIL', traceback.format_exc())
+
     def quit(self):
         self.driver.quit()
         self.__write_excel_res('PASS', '退出成功')

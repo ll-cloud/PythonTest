@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Aug 25 22:21:41 CST 2020","Tue Aug 25 22:21:41 CST 2020","0","","test_allure","","","","test_cart1","将电脑加入购物车"
+"passed","Tue Aug 25 22:16:08 CST 2020","Tue Aug 25 22:16:08 CST 2020","1","","test_demo1","Test_Shop","","","test_1",""
+"failed","Tue Aug 25 22:16:08 CST 2020","Tue Aug 25 22:16:08 CST 2020","0","","test_demo3","Test_ABC","","","test_b",""
+"passed","Tue Aug 25 22:16:08 CST 2020","Tue Aug 25 22:16:08 CST 2020","0","","test_demo4","Test_Add","","","test_add[1-1.01-2.01-整数加小数]",""
+"passed","Tue Aug 25 22:16:08 CST 2020","Tue Aug 25 22:16:08 CST 2020","0","","test_demo3","Test_ABC","","","test_a",""
+"passed","Tue Aug 25 22:21:41 CST 2020","Tue Aug 25 22:21:41 CST 2020","0","","test_allure","","","","test_cart","将手机加入购物车"
+"passed","Tue Aug 25 22:16:08 CST 2020","Tue Aug 25 22:16:08 CST 2020","1","","test_demo4","Test_Add","","","test_add[1-1-2-整数加整数]",""

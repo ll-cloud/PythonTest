@@ -1,0 +1,71 @@
+[ {
+  "uid" : "a431a57a256859d4",
+  "name" : "test_cart1",
+  "time" : {
+    "start" : 1598365301702,
+    "stop" : 1598365301702,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2262de6e731007a0",
+  "name" : "test_1",
+  "time" : {
+    "start" : 1598364968799,
+    "stop" : 1598364968800,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72b76799e7e2ff92",
+  "name" : "test_b",
+  "time" : {
+    "start" : 1598364968811,
+    "stop" : 1598364968811,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd8abba0facb2054",
+  "name" : "test_add[1-1.01-2.01-整数加小数]",
+  "time" : {
+    "start" : 1598364968952,
+    "stop" : 1598364968952,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbbf3154134ffac9",
+  "name" : "test_a",
+  "time" : {
+    "start" : 1598364968806,
+    "stop" : 1598364968806,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2eae467edf71f15e",
+  "name" : "test_cart",
+  "time" : {
+    "start" : 1598365301694,
+    "stop" : 1598365301694,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "426fb25c2f2f90b5",
+  "name" : "test_add[1-1-2-整数加整数]",
+  "time" : {
+    "start" : 1598364968875,
+    "stop" : 1598364968876,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

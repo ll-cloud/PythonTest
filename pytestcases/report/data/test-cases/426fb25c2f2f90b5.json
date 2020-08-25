@@ -1,0 +1,65 @@
+{
+  "uid" : "426fb25c2f2f90b5",
+  "name" : "test_add[1-1-2-整数加整数]",
+  "fullName" : "test_demo4.Test_Add#test_add",
+  "historyId" : "9d7de86edce74fdeab7d02e819107b92",
+  "time" : {
+    "start" : 1598364968875,
+    "stop" : 1598364968876,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_demo4"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Add"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KHV2FO1"
+  }, {
+    "name" : "thread",
+    "value" : "15500-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo4"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "name",
+    "value" : "'整数加整数'"
+  }, {
+    "name" : "x",
+    "value" : "1"
+  }, {
+    "name" : "y",
+    "value" : "1"
+  }, {
+    "name" : "z",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "426fb25c2f2f90b5.json",
+  "parameterValues" : [ "'整数加整数'", "1", "1", "2" ]
+}
